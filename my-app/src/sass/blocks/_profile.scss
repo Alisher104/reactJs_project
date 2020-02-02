@@ -1,0 +1,16 @@
+.profile {
+  grid-area: content;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+
+  img {
+    width: 50%;
+    align-items: center;
+  }
+}

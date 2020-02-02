@@ -1,0 +1,19 @@
+body {
+  background: url("https://i.pinimg.com/originals/dd/49/76/dd49768d8d5b6f9ef4d3e96e82133b5e.jpg")
+    center (center/cover) no-repeat;
+}
+
+.app_wrapper {
+  display: grid;
+
+  grid-template-areas:
+    "header header"
+    "nav content";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/profile";
